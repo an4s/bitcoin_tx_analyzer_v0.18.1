@@ -6,6 +6,7 @@
  * 2019-08-29 - an4s - tx analyzer implemented for v0.15.2
  * 2021-05-30 - an4s - clean up implementation of tx analyzer for making it
  *                     public-facing
+ * 2021-05-31 - an4s - tx analyzer forward ported to v0.18.1
  */
 
 #ifndef __TX_ANALYZER__H
@@ -13,6 +14,7 @@
 
 #include <string>
 
+// default values for command line arguments
 const bool DEFAULT_TX_ANALYSIS_STATUS = false;
 const char * DEFAULT_TA_INPUT_FILENAME = "ta-input-file";
 
