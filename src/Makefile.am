@@ -193,6 +193,7 @@ BITCOIN_CORE_H = \
   threadinterrupt.h \
   timedata.h \
   torcontrol.h \
+  txAnalyzer.h \
   txdb.h \
   txmempool.h \
   ui_interface.h \
@@ -279,6 +280,7 @@ libbitcoin_server_a_SOURCES = \
   shutdown.cpp \
   timedata.cpp \
   torcontrol.cpp \
+  txAnalyzer.cpp \
   txdb.cpp \
   txmempool.cpp \
   ui_interface.cpp \
